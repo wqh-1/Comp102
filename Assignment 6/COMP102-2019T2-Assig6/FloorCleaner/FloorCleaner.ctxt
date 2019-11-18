@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=FloorCleaner
+comment0.text=\ Runs\ a\ simulation\ of\ a\ robot\ vacuum\ cleaner\ that\ moves\ around\ a\ floor\ area,\n\ \ \ \ \ \ changing\ to\ a\ new\ random\ direction\ every\ time\ it\ hits\ the\ edge\ of\ the\n\ \ \ \ \ \ floor\ area.\n
+comment1.params=
+comment1.target=void\ cleanFloor()
+comment1.text=\ Method\ to\ create\ robot\ and\ make\ it\ run\ around\ for\ ever.\n\ \ Makes\ a\ dirty\ floor\ (a\ grey\ rectangle),\ and\ then\ makes\ a\ robot\ floor\n\ \ cleaner\ run\ around\ on\ the\ floor\ to\ clean\ it\ all\ up.\n\ \ The\ robot\ will\ go\ forward\ a\ small\ amount\ on\ each\ step,\ and\n\ \ erase\ the\ "dirt".\n\ \ After\ each\ step,\ the\ program\ should\ ask\ for\ the\ robot's\n\ \ position\ and\ check\ the\ position\ against\ the\ edges\ of\ the\ floor.\n\n\ \ For\ the\ core,\ the\ robot\ stops\ if\ its\ position\ is\ off\ the\ floor.\n\n\ \ For\ the\ completion,\ if\ the\ robot\ has\ gone\ over\ the\ edge,\ it\ should\n\ \ tell\ the\ robot\ to\ "bump",\ which\ will\ make\ it\ back\ up\ a\ bit\ and\ then\n\ \ turn\ to\ a\ new\ random\ direction.\n
+comment2.params=
+comment2.target=Robot\ newRobot()
+comment3.params=
+comment3.target=void\ setupGUI()
+comment3.text=Make\ buttons\ to\ let\ the\ user\ run\ the\ methods
+comment4.params=arguments
+comment4.target=void\ main(java.lang.String[])
+numComments=5

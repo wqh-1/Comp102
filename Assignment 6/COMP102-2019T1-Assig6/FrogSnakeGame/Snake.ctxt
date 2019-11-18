@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Snake
+comment0.text=\ The\ snake\ is\ created\ at\ a\ random\ position\ with\ a\ random\ 360\ degree\ direction.\r\n\ The\ constructor\ does\ not\ have\ any\ parameters.\r\n\ It\ can\ move\r\n\ \ -\ makes\ it\ go\ forward\ one\ step\ in\ its\ current\ direction.\r\n\ \ -\ if\ outside\ arena\ boundaries,\ makes\ it\ go\ backward\ one\ step,\ and\r\n\ \ \ \ \ \ \ \ \ then\ turn\ to\ a\ new\ (random)\ direction.\r\n\ \ The\ walls\ of\ the\ arena\ are\ determined\ by\ the\ constants\:\r\n\ \ \ \ FrogSnakeGame.TopWall,\ FrogSnakeGame.BotWall,\ FrogSnakeGame.LeftWall\r\n\ \ \ \ and\ FrogSnakeGame.RightWall\r\n\ It\ can\ report\ its\ current\ position\ (x\ and\ y)\ with\ the\r\n\ \ getX()\ and\ getY()\ methods.\r\n\ \ move()\ will\ make\ it\ move\ in\ the\ direction\ it\ is\ going.\ \r\n\ \ draw()\ will\ make\ it\ draw\ itself\ (image\ size\ should\ be\ 30).\r\n
+comment1.params=
+comment1.target=Snake()
+comment2.params=
+comment2.target=double\ getX()
+comment3.params=
+comment3.target=double\ getY()
+comment4.params=
+comment4.target=void\ move()
+comment5.params=
+comment5.target=void\ draw()
+numComments=6

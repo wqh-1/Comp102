@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=InvoicePrinter
+comment0.text=\n\ InvoicePrinter\n\ Reads\ an\ order\ from\ a\ file\ and\ prints\ an\ invoice\n
+comment1.params=
+comment1.target=void\ printInvoice()
+comment1.text=\n\ Asks\ the\ user\ for\ the\ name\ of\ a\ file\ containing\ the\ details\ of\ an\ order\n\ \ and\ then\ prints\ out\ an\ invoice\ for\ the\ order.\n\ Each\ line\ of\ an\ order\ file\ contains\ an\ item,\ a\ count,\ and\ a\ unit-price.\n\ eg\:\ an\ order\ line\ for\ 3\ packets\ of\ butter\ at\ $4.20\ per\ packet\ would\ be\n\ \ \ \ butter\ \ \ \ \ \ 3\ \ 4.20\n\ \ \n\ For\ each\ line\ in\ the\ order,\ the\ invoice\ must\ have\ a\ line\ with\ the\n\ \ the\ count,\ the\ item,\ the\ unit\ price,\ and\ the\ total\ price.\ eg\n\ \ \ \ 3\ x\ butter\ @\ $4.20\ \ \ \ \ \ \ $12\:60\n\ \n\ At\ the\ end\ of\ the\ invoice,\ it\ must\ print\ out\n\ \ \ the\ total\ cost\ of\ the\ order\n\ \ \ the\ GST\ component\ of\ the\ order\n\ \ \ the\ ex-GST\ cost.\n\ Hints\:\n\ \ \ This\ assignment\ builds\ directly\ on\ the\ lab\ exercise\!\n\ \ \ Use\ the\ readAllLines\ method\ from\ the\ lab\ exercise\ and\ a\ Scanner\ for\ each\ line\n
+comment2.params=fname
+comment2.target=java.util.ArrayList\ readAllTokens(java.lang.String)
+comment2.text=\n\ Utility\ method\:\ \n\ Read\ all\ the\ tokens\ in\ a\ file\ into\ a\ list\ of\ tokens.\n\ Returns\ the\ list\n
+numComments=3

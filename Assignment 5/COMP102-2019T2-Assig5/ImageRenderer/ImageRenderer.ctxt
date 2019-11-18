@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ImageRenderer
+comment0.text=\ Renders\ plain\ ppm\ images\ onto\ the\ graphics\ panel\n\ \ ppm\ images\ are\ the\ simplest\ possible\ colour\ image\ format.\n
+comment1.params=
+comment1.target=void\ renderImageCore()
+comment1.text=\ \n\ Renders\ a\ ppm\ image\ file.\n\ Asks\ for\ the\ name\ of\ the\ file\ and\ opens\ a\ Scanner\n\ then\ calls\ renderImageHelper,\ passing\ the\ Scanner.\n
+comment2.params=scan
+comment2.target=void\ renderImageHelper(java.util.Scanner)
+comment2.text=\ Core\:\ \ \ \n\ Renders\ a\ ppm\ image\ file,\ given\ an\ open\ Scanner\ \n\ Renders\ the\ image\ at\ position\ (LEFT,\ TOP).\n\ Each\ pixel\ of\ the\ image\ is\ rendered\ by\ a\ square\ of\ size\ PIXEL_SIZE\n\ Assumes\ that\n\ -\ the\ colour\ depth\ is\ 255,\n\ -\ there\ is\ just\ one\ image\ in\ the\ file\ (not\ "animated"),\ and\n\ -\ there\ are\ no\ comments\ in\ the\ file.\n\ The\ first\ four\ tokens\ are\ "P3",\ number\ of\ columns,\ number\ of\ rows,\ 255\n\ The\ remaining\ tokens\ are\ the\ pixel\ values\ (red,\ green,\ blue\ for\ each\ pixel)\n\ Hint\:\ to\ draw\ the\ pixels,\ it\ is\ probably\ easiest\ to\ have\ a\ nested\ for\ loop\n\ \ that\ will\ repeatedly\n\ \ -\ read\ the\ next\ three\ numbers\ from\ the\ scanner\n\ \ -\ construct\ the\ Color\ and\ set\ UI's\ color\n\ \ -\ draw\ the\ pixel.\n\ \ (ie,\ don't\ construct\ an\ ArrayList\ of\ numbers).\n
+comment3.params=
+comment3.target=void\ renderAnimatedImage()
+comment3.text=\ Completion\n\ Renders\ a\ ppm\ image\ file\ which\ may\ be\ animated\n\ There\ may\ be\ multiple\ images\ in\ the\ file,\ each\ with\ their\ own\ header\ and\ pixel\ values.\n\ Asks\ for\ the\ name\ of\ the\ file,\ then\ renders\ the\ image\ at\ position\ (LEFT,\ TOP).\n\ Each\ pixel\ of\ the\ image\ \ is\ rendered\ by\ a\ square\ of\ size\ PIXEL_SIZE\n\ Renders\ each\ image\ in\ the\ file\ in\ turn\ with\ 200\ mSec\ delay.\n\ Repeats\ the\ whole\ sequence\ 3\ times.\n
+comment4.params=scan
+comment4.target=void\ GreyImage(java.util.Scanner)
+comment5.params=scan
+comment5.target=void\ ChallengeImage(java.util.Scanner)
+comment6.params=file
+comment6.target=java.lang.String\ comments(java.io.File)
+comment7.params=string
+comment7.target=java.util.Scanner\ StringScanner(java.lang.String)
+comment8.params=
+comment8.target=void\ Format()
+comment8.text=\n\ \ \ \ public\ void\ Challenge(){\n\ \ \ \ String\ filename\ \=\ UIFileChooser.open("Please\ choose\ a\ file");\n\ \ \ \ try{\n\ \ \ \ File\ file\ \=\ new\ File(filename);\n\ \ \ \ this.ChallengeImage(StringScanner(comments(file)));\n\ \ \ \ }catch(Exception\ e){UI.println("File\ failure\:\ "\ +\ e);}\n\ \ \ \ }\n
+comment9.params=
+comment9.target=void\ setupGUI()
+comment9.text=Make\ buttons\ to\ let\ the\ user\ run\ the\ methods
+numComments=10

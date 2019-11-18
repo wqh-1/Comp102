@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=WordSearcher
+comment1.params=
+comment1.target=void\ search()
+comment1.text=\r\n\ Asks\ the\ user\ for\ a\ pattern\ and\ then\ finds\ and\ prints\ out\ (one\ per\ line)\ all\r\n\ \ the\ words\ in\ a\ dictionary\ that\ contain\ that\ pattern.\r\n\ At\ the\ end,\ it\ prints\ out\ how\ many\ words\ contained\ the\ pattern.\r\n\ It\ stops\ printing\ out\ words\ after\ it\ has\ found\ 100\ of\ them,\ but\ it\ still\r\n\ \ prints\ the\ total\ number\ of\ matches\ at\ the\ end.\r\n\ The\ dictionary\ is\ in\ the\ file\ dictionary.txt.\r\n\ Hints\:\r\n\ \ \ Use\ the\ readAllTokens\ method\ from\ the\ lab\ exercise\r\n
+numComments=2

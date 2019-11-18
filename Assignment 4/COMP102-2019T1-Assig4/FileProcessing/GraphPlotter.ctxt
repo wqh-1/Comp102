@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GraphPlotter
+comment1.params=
+comment1.target=void\ plotGraph()
+comment1.text=\r\n\ Plot\ a\ graph\ of\ a\ sequence\ of\ numbers\ read\ from\ a\ file\ using\ +'s\ for\ each\ point.\r\n\ The\ origin\ of\ the\ graph\ should\ be\ at\ (GRAPH_LEFT,\ GRAPH_BASE)\r\n\ The\ method\ should\ ask\ the\ user\ for\ the\ name\ of\ a\ file\r\n\ \ then\ read\ all\ the\ numbers\ from\ the\ file\ into\ an\ ArrayList.\r\n\ It\ should\ then\ plot\ the\ numbers\:\r\n\ \ -\ Draw\ two\ axes\r\n\ \ -\ Plot\ each\ number\ as\ a\ small\ +.\r\n\ \ -\ The\ x\ value\ of\ the\ first\ point\ should\ be\ at\ GRAPH_LEFT,\ and\r\n\ \ \ \ the\ last\ point\ should\ be\ at\ GRAPH_RIGHT.\r\n\ \ -\ The\ points\ should\ be\ separated\ by\ (GRAPH_RIGHT\ -\ GRAPH_LEFT)/(number\ of\ points\ -\ 1)\r\n\ Hints\:\r\n\ \ \ use\ the\ readAllNumbers\ method\ from\ the\ lab\ exercise\r\n\ \ \ look\ at\ the\ model\ answers\ for\ the\ Temperature\ Analyser\ problem\ from\ assignment\ 3.\r\n
+numComments=2

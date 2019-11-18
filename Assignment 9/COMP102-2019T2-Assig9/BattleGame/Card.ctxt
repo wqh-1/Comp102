@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\n\ Card\n\ Represent\ individual\ Cards\n\ Methods\:\n\ \ \ draw(double\ left,\ double\ top)\ \ draw\ the\ card\ at\ a\ position\n\ \ \ getRank()\ and\ getSuit()\ return\ the\ rank\ and\ the\ suit\ of\ the\ card\n\ \ \ getDeck\ return\ an\ ArrayList\ containing\ a\ shuffled\ deck\ of\ 52\ cards\n\n
+comment1.params=suit\ rank
+comment1.target=Card(java.lang.String,\ int)
+comment1.text=\ \n\ Construct\ a\ new\ Card\ object\ with\ the\ given\ suit\ and\ the\ given\ rank\n
+comment2.params=
+comment2.target=java.lang.String\ getSuit()
+comment2.text=\n\ Return\ the\ suit\ of\ the\ card\n
+comment3.params=
+comment3.target=int\ getRank()
+comment3.text=\n\ Return\ the\ rank\ of\ the\ card\n
+comment4.params=
+comment4.target=java.lang.String\ getImage()
+comment4.text=\n\ Return\ the\ name\ of\ the\ image\ of\ the\ card\n
+comment5.params=left\ top
+comment5.target=void\ draw(double,\ double)
+comment5.text=\n\ Draw\ the\ card\ at\ the\ position\ (left,\ top)\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getDeck()
+comment6.text=\n\ Get\ a\ new\ deck\ of\ 52\ different\ cards\n\ The\ cards\ in\ the\ deck\ have\ been\ shuffled.\n
+numComments=7

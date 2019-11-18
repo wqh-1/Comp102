@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PaintCalculator
+comment0.text=Program\ for\ calculating\ amount\ of\ paint\ required\ to\ paint\ a\ room
+comment1.params=
+comment1.target=void\ calculatePaintCore()
+comment1.text=\ Calculates\ and\ prints\ litres\ of\ paint\ needed\ to\ paint\ a\ room\n\ \ with\ four\ walls\ (not\ counting\ the\ doors,\ floor,\ and\ ceiling)\n
+comment2.params=
+comment2.target=void\ calculatePaintCompletion()
+comment2.text=\ Calculates\ and\ prints\ litres\ of\ paint\ needed\ to\ paint\n\ \ -\ the\ four\ walls\ of\ a\ room\ (not\ counting\ the\ doors\ and\ windows)\n\ \ -\ the\ ceiling\ (different\ type\ of\ paint)\n
+comment3.params=
+comment3.target=void\ calculatePaintChallenge()
+comment4.params=
+comment4.target=void\ setupGUI()
+comment4.text=Make\ buttons\ to\ let\ the\ user\ run\ the\ methods
+numComments=5
